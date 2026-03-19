@@ -1,0 +1,165 @@
+﻿
+<html>
+<head>
+    <title>WPD PR23</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        :root {
+            --primary-color: #be1717;
+            --accent-color: #3498db;
+            --bg-color: #f4f7f6;
+            --card-bg: #ffffff;
+            --text-color: #333;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--bg-color);
+            margin: 0;
+            color: var(--text-color);
+        }
+
+        header {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: var(--primary-color);
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .section-title {
+            border-left: 5px solid var(--accent-color);
+            padding-left: 15px;
+            margin-bottom: 30px;
+        }
+
+        .practical-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .btn-view {
+            background: dodgerblue;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 20px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn-view:hover {
+            background: #1e3c72;
+        }
+
+        /* Feedback Form Styling */
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        form input, form select, form textarea {
+            padding: 10px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+        }
+
+        form button {
+            border: none;
+            cursor: pointer;
+        }
+
+        .download {
+            text-align: center;
+            margin: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>MSBTE WEB PAGE DESIGNING Practicals</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Practicals</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="container">
+    <h2 class="section-title">List of Practicals</h2>
+
+    <div class="practical-grid">
+
+        <!-- Practicals -->
+        <div class="card"><h3>Practical 1</h3><p>Basic HTML</p><a href="pr1.html" class="btn-view">VIEW</a></div>
+        <div class="card"><h3>Practical 2</h3><p>Heading tags</p><a href="pr2.html" class="btn-view">VIEW</a></div>
+        <div class="card"><h3>Practical 3</h3><p>Paragraph</p><a href="pr3.html" class="btn-view">VIEW</a></div>
+        <div class="card"><h3>Practical 4</h3><p>Block tags</p><a href="pr4.html" class="btn-view">VIEW</a></div>
+        <div class="card"><h3>Practical 5</h3><p>Text tags</p><a href="pr5.html" class="btn-view">VIEW</a></div>
+        <div class="card"><h3>Practical 6</h3><p>Border properties</p><a href="pr6.html" class="btn-view">VIEW</a></div>
+        <div class="card"><h3>Practical 7</h3><p>Special characters</p><a href="pr7.html" class="btn-view">VIEW</a></div>
+        <div class="card"><h3>Practical 8</h3><p>Lists</p><a href="pr8.html" class="btn-view">VIEW</a></div>
+        <div class="card"><h3>Practical 9</h3><p>Different lists</p><a href="pr9.html" class="btn-view">VIEW</a></div>
+        <div class="card"><h3>Practical 10</h3><p>Links</p><a href="pr10.html" class="btn-view">VIEW</a></div>
+        <div class="card"><h3>Practical 11</h3><p>Use of links</p><a href="pr11.html" class="btn-view">VIEW</a></div>
+        <div class="card"><h3>Practical 12</h3><p>Links with images</p><a href="pr12.html" class="btn-view">VIEW</a></div>
+        <div class="card"><h3>Practical 13</h3><p>Colors for links</p><a href="pr13.html" class="btn-view">VIEW</a></div>
+        <div class="card"><h3>Practical 14</h3><p>Foreground/background</p><a href="pr14.html" class="btn-view">VIEW</a></div>
+        <div class="card"><h3>Practical 15</h3><p>Width & height</p><a href="pr15.html" class="btn-view">VIEW</a></div>
+        <div class="card"><h3>Practical 16</h3><p>Background</p><a href="pr16.html" class="btn-view">VIEW</a></div>
+        <div class="card"><h3>Practical 17</h3><p>Table</p><a href="pr17.html" class="btn-view">VIEW</a></div>
+        <div class="card"><h3>Practical 18</h3><p>Table with image</p><a href="pr18.html" class="btn-view">VIEW</a></div>
+        <div class="card"><h3>Practical 19</h3><p>Row & column</p><a href="pr19.html" class="btn-view">VIEW</a></div>
+        <div class="card"><h3>Practical 20</h3><p>Frame</p><a href="pr20.html" class="btn-view">VIEW</a></div>
+        <div class="card"><h3>Practical 21</h3><p>Elements</p><a href="pr21.html" class="btn-view">VIEW</a></div>
+        <div class="card"><h3>Practical 22</h3><p>CSS</p><a href="pr22.html" class="btn-view">VIEW</a></div>
+
+    </div>
+   
+<!-- Feedback Form -->
+<!-- Feedback Form --> <div class="container"> <h2 class="section-title">Feedback Form</h2> <div class="card"> <form> <input type="text" placeholder="Your Name" required> <input type="email" placeholder="Your Email" required> <select required> <option value="">Rate Website</option> <option>Excellent</option> <option>Good</option> <option>Average</option> <option>Poor</option> </select> <textarea rows="5" placeholder="Your Feedback"></textarea> <button class="btn-view">Submit</button> </form> </div> </div>
+
+<!-- Contact -->
+<h2 style="text-align:center;">CONTACT INFORMATION</h2>
+<address style="text-align:center;">
+    NAME: Sayli Nilesh Bhaltilak<br>
+    COLLEGE: MET Bhujbal Knowledge City<br>
+    BRANCH: FYIF<br>
+    ROLL NO: 40<br>
+    SUBJECT: WPD<br>
+    Email: 2025ictabc@gmail.com
+</address>
+
+</body>
+</html>
